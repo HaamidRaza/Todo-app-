@@ -1,0 +1,77 @@
+body{
+    background-color: pink;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+input{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+#Add{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+    background-color: lightslategray;
+}
+
+#Add:hover{
+    background-color: rgb(137, 156, 175);
+}
+
+#Add:active{
+    background-color: rgb(97, 110, 123);
+}
+
+.List{
+    width: 50%;
+    margin:auto;
+    border: 2px lightcoral solid;
+}
+li{
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.Delete{
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(255, 60, 60);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Delete:hover{
+    background-color: rgb(254, 103, 103);
+}
+
+.Delete:active{
+    background-color: red;
+}
