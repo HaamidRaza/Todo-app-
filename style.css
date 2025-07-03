@@ -22,19 +22,23 @@ body{
 
 input{
     height: 50px;
-    width: 100px;
+    width: 500px;
+    padding: 10px;
     border: none;
     border-radius: 20px 0px 0px 20px;
-
+    font-size: 25px;
+    font-weight: 500;
 }
 
 #Add{
-    height: 50px;
+    height: 70px;
     width: 100px;
     border: none;
     border-radius: 0px 20px 20px 0px;
     cursor: pointer;
     background-color: lightslategray;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 #Add:hover{
@@ -48,11 +52,12 @@ input{
 .List{
     width: 50%;
     margin:auto;
-    border: 2px lightcoral solid;
 }
 li{
     font-size: 20px;
     line-height: 50px;
+    margin-top: 5px;
+    border: 2px lightcoral solid;
 }
 
 .Delete{
